@@ -1,0 +1,48 @@
+form {
+    background-color: #213b50;
+    width: 100%;
+    padding: 20px;
+}
+label, p, select, option {
+    color: #ffffff;
+    display: inline-block;
+}
+
+input, select, textarea {
+    background-color: #2b4a64;
+    border: none;
+}
+textarea {
+    width: 50%;
+    height: 50px;
+}
+#name, #sname, #email, #phone, #city {
+    width: 50%;
+    height: 25px;
+    color: #ffffff;
+    padding: 5px;
+    display: inline-block;
+}
+input:focus, textarea:focus, select:focus {
+    background-color: #4e708c;
+    color: #ffffff;
+    border: solid #ffffff 1px;
+}
+input[type="submit"]{
+    background-color: #30ce30;
+    padding: 10px 15px;
+}
+input[value="Wyślij"]{
+    color: white;
+    text-transform: uppercase;
+    font-weight: 600;
+}
+input::placeholder {
+    color: rgb(176, 194, 235);
+}
+textarea::placeholder {
+    color: rgb(176, 194, 235);
+}
+#female, #male, p, input, select, textarea {
+    margin-bottom: 20px;
+}

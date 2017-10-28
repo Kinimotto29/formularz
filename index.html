@@ -2,60 +2,36 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
+    <link rel="stylesheet" href="css/style.css">
     <title>Formularz formspree</title>
 </head>
 <body>
     <form action="https://formspree.io/domind1823@gmail.com"
       method="POST">
-      <br>
-      <label for="name">Imię:</label>
-      <br>
-    <input type="text" id="name" name="Imię" placeholder="Wpisz swoje imię" style="font-size: 15px; font-family: Times New Roman">
-    <br>
-    <br>
-    <label for="sname">Nazwisko:</label>
-    <br>
-    <input type="text" id="sname" name="Nazwisko" placeholder="Wpisz swoje nazwisko" style="font-size: 15px; font-family: Times New Roman">
-    <br>
-    <br>
-    <label for="email">Adres e-mail:</label>
-    <br>
-    <input type="text" id="email" name="Adres e-mail" placeholder="Wpisz swój adres e-mail" style="font-size: 15px; font-family: Times New Roman">
-    <br>
-    <br>
-    <label for="phone">Telefon:</label>
-    <br>
-    <input type="text" id="phone" name="Telefon" placeholder="Wpisz swój nr telefonu" style="font-size: 15px; font-family: Times New Roman">
-    <br>
-    <br>
-    <label for="city">Miasto:</label>
-    <br>
-    <select name="Miasto" id="city" style="color: grey; width: 195px; height: 22px; font-size: 15px; font-family: Times New Roman">
+      <label for="name">Imię:</label><br>
+    <input type="text" id="name" name="Imię" placeholder="Wpisz swoje imię"><br>
+    <label for="sname">Nazwisko:</label><br>
+    <input type="text" id="sname" name="Nazwisko" placeholder="Wpisz swoje nazwisko"><br>
+    <label for="email">Adres e-mail:</label><br>
+    <input type="text" id="email" name="Adres e-mail" placeholder="Wpisz swój adres e-mail"><br>
+    <label for="phone">Telefon:</label><br>
+    <input type="text" id="phone" name="Telefon" placeholder="Wpisz swój nr telefonu"><br>
+    <label for="city">Miasto:</label><br>
+    <select name="Miasto" id="city">
        <option value="" disabled selected hidden>Wybierz miasto</option>
-        <option value="Kraków" style="color: black;">Kraków</option>
-        <option value="Warszawa" style="color: black;">Warszawa</option>
-        <option value="Gdańsk" style="color: black;">Gdańsk</option>
-    </select>
-    <br>
-    <br>
+        <option value="Kraków" >Kraków</option>
+        <option value="Warszawa">Warszawa</option>
+        <option value="Gdańsk">Gdańsk</option>
+    </select><br>
        <p>Wybierz swoją płeć:</p>
         <input id="female" type="radio" name="Płeć" value="Kobieta" checked><label for="female">Kobieta</label>
         <input id="male" type="radio" name="Płeć" value="Mężczyzna">
-        <label for="male">Mężczyzna</label>
-    <br>
-    <br>
-    <br>
+        <label for="male">Mężczyzna</label><br>
+    <label for="message">Wiadomość:</label><br>
+    <textarea name="Wiadomość" id="message" placeholder="Napisz wiadomość"></textarea><br>
     <input type="checkbox" id="identities" name="Zgoda na przetwarzanie danych osobowych">
-    <label for="identities">Wyrażam zgodę na przetwarzanie danych osobowych.</label>
-    <br>
-    <br>
-    <br>
-    <label for="message">Wiadomość:</label>
-    <br>
-    <textarea name="Wiadomość" id="message" placeholder="Napisz wiadomość" cols="40" rows="05" style="font-size: 16px; font-family: Times New Roman;"></textarea>
-    <br>
-    <br>
-    <input type="submit" value="Wyślij" style="width: 100px; height: 30px; font-size: 16px; font-family: Times New Roman">
+        <label for="identities">Wyrażam zgodę na przetwarzanie danych osobowych.</label><br>
+    <input type="submit" value="Wyślij">
 </form>
 </body>
 </html>
